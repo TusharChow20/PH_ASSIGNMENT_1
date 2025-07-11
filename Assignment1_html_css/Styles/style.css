@@ -1,0 +1,301 @@
+
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.raleway{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* nav bar section */
+.nav_bar_cls{
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    /* align-items: flex-end;
+     */
+    justify-content: space-between;
+    
+}
+
+.nav_bar_logo{
+    color: #4E47FF;
+    width: 99px;
+    height: 51px;
+    
+}
+
+.useful_btn{
+    width: 132px;
+    height: 48px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.useful_btn:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.header_cls{
+    background-image: url('../Assets/Hero-bg.png');
+    height: 750px;
+}
+
+
+.div_class{
+    width: 905px;
+    height: 237px;
+    margin-left: 267.5px;
+    margin-top: 309px;
+    margin-bottom: 152px;
+    margin-right: 267.5px;
+    text-align: center;
+    font-size: 30px;
+    
+    
+}
+.useful_btn_stay{
+    width: 174px;
+    height: 48px;
+    margin-left: 365.5px;
+    margin-top: 37px;
+    margin-right: 365.5px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.useful_btn_stay:hover{
+    background-color: yellow;
+    color: black;
+}
+.main_section{
+    display: flex;
+    height: 328px;
+    width: 1140px;
+    margin-left: 141px;
+    margin-right: 159px;
+    /* margin: 0 auto; */
+}
+
+.div_section_action{
+    margin: 62.5px ;
+    margin-right: 220px;
+}
+
+.wc_mini{
+    height: 328px;
+    width: 403px;
+    border-radius: 48px;
+    
+}
+.useful_btn_launch{
+    width: 229px;
+    height: 48px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+.useful_btn_launch:hover{
+    background-color: yellow;
+    color: black;
+}
+/* //////////////////////////////////// */
+
+.main_div{
+    max-height:306px ;
+    max-width: 1140px;
+    margin-right: 159px ;
+    margin-left: 141px;
+    margin-top: 116px;
+    background-color: #4E47FF1A ;
+    justify-items: center;
+    border-radius: 24px;
+    padding: 80px 50px;
+    gap: 10px;
+}
+.sub_div_start{
+    display: flex;
+    /* justify-content: center; */
+    gap: 158px;
+}
+.sub_div1{
+    Color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+    /* justify-content: center;
+    gap: 158px */
+}
+.sub_div2{
+    text-align: center;
+    margin-bottom: 600px;
+    color: #252432;
+}
+/* ////////////////////////////////////////////////////////////////////// */
+.review_layout{
+    margin-top: 137px;
+    text-align: center;
+    
+
+}
+
+.user_review{
+    display: flex;
+    gap: 30px;
+    text-align:left;
+    margin-left: 151px;
+}
+.font_mng{
+    font: 70px;
+    font-weight: bolder;
+}
+.review{
+    width: 366.67px;
+    height: 243px;
+    padding: 24px 24px ;
+    gap: 24px;
+    box-shadow: 0px 4px 4px 0px wheat;
+}
+
+.reviewer{
+    display: flex;
+    gap: 20px
+}
+
+.img_edit{
+    border-radius: 80px;
+}
+
+/* //////////////////////////////////////////////////////////// */
+
+ .Webflow_conf{
+    width: 1140px;
+    height: 330.77px;
+    margin-left: 151px;
+    margin-right: 149px;
+    margin-top: 137px;
+    margin-bottom: 92.23px;
+    gap: 20;
+    text-align: center;
+    padding: 150px 71px;
+    background-color: whitesmoke;
+    border-radius: 20 px;
+ }
+
+ .webflow_img{
+    width: 840px;
+    height: 364.77px;
+    border-radius:48px;
+ }
+
+ .focus_better{
+    font: 80px ;
+    font-weight: bold;
+    margin-top: -100px;
+ }
+
+ .focus_btn{
+    margin: 20px 472.5px 20px 472.5px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    width: 195px;
+    height: 48px;
+    padding: 12px 12px;
+    border-radius: 30px;
+
+ }
+ .focus_btn:hover{
+    background-color: yellow;
+    color: black;
+ }
+
+ .studio_vertex{
+    color:#2524327A ;
+ }
+
+ /* //////////////////////////////////////////
+  */
+
+  .get_in_touch{
+    width: 1140px;
+    height: 632px;
+    padding-top: 70px;
+    display: flex;
+    gap: 400px;
+    margin: 92.23px 150px 10px 150px ;
+  }
+
+  .get_in_touch_text{
+    width: 528;
+    height: 232px;
+    font-size: 97px;
+    font-weight: bold;
+  }
+
+  .contact_section{
+    width: 497px;
+    height: 490px;
+    gap: 19pc;
+    margin-left: 115px;
+    margin-top: 71px;
+    margin-bottom: 71px;
+    text-align: left top;
+  }
+
+  .contact_btn{
+    width: 170px;
+    height: 12px;
+    gap: 10px;
+    padding: 23px 23px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 20px;
+  }
+  .contact_btn:hover{
+    background-color: yellow;
+    color: black;
+  }
+  /* ////////////////////////////////// */
+
+  .fotter_cls{
+    text-align: center;
+    margin-top: -200px
+  }
+  .logo_cls{
+    font:100px ;
+    color: #4E47FF;
+  }
+
+  .fotter_end ul a{
+    
+    text-decoration: none;
+    color: inherit;
+    
+  }
+  .fotter_end ul{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+  }
