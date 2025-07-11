@@ -1,26 +1,26 @@
 
 .open-sans{
   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+  /* font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  /* font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "wdth" 100; */ 
 }
 
 .raleway{
   font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
+  /* font-optical-sizing: auto;
   font-weight: <weight>;
-  font-style: normal;
+  font-style: normal; */
 
 }
 
 .inter{
   font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+  /* font-optical-sizing: auto;
   font-weight: <weight>;
-  font-style: normal;
+  font-style: normal; */
 }
 
 /* nav bar section */
@@ -127,29 +127,40 @@
     max-width: 1140px;
     margin-right: 159px ;
     margin-left: 141px;
-    margin-top: 116px;
+    margin-top: 220px;
     background-color: #4E47FF1A ;
     justify-items: center;
     border-radius: 24px;
     padding: 80px 50px;
     gap: 10px;
+    /* text-align: center;  */
 }
+
+.user_product{
+  font: 300px;
+  font-weight: bold;
+}
+
 .sub_div_start{
     display: flex;
     /* justify-content: center; */
     gap: 158px;
+    margin-top: 100px;
 }
 .sub_div1{
     Color: #4E47FF;
     font-size: 80px;
     font-weight: bold;
+    margin: 0;
+    
     /* justify-content: center;
     gap: 158px */
 }
 .sub_div2{
     text-align: center;
     margin-bottom: 600px;
-    color: #252432;
+    color: #2121235a;
+    margin: 0;
 }
 /* ////////////////////////////////////////////////////////////////////// */
 .review_layout{
